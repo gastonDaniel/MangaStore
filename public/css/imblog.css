@@ -1,0 +1,69 @@
+#blog h5{
+	margin-top: 5px;
+
+}
+
+
+@media screen and (max-width: 400px) {
+body{background-color: red;}
+	
+}
+
+
+#blog h3{
+	margin-top: 150px;
+
+}
+
+#blog h4{
+	text-align: center;
+	color: black;
+	margin-top: 10px;
+}
+
+#blog .Comics{
+	
+	display: flex;
+	justify-content: center;/*las imagenes se ponen uno al lado de la otra, tambien los h4*/
+	flex-wrap: wrap;
+}
+
+#blog .Seinen{
+	display: flex;
+	justify-content: center;/*las imagenes se ponen uno al lado de la otra, tambien los h4*/
+	flex-wrap: wrap;
+}
+
+#blog .Shonen{
+	display: flex;
+	justify-content: center;/*las imagenes se ponen uno al lado de la otra, tambien los h4*/
+	flex-wrap: wrap;
+}
+
+#blog .novedades{
+	margin: 20px;
+	display: flex;
+	justify-content: center;/*las imagenes se ponen uno al lado de la otra, tambien los h4*/
+	flex-wrap: wrap;
+}
+
+
+#blog article{
+	margin: 20px;
+	margin-top: 25px;
+
+}
+
+#blog img{
+	width: 100%;
+	max-width: 280px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	height: 385px;
+}
+
+#blog footer{
+	text-align: center;
+
+}

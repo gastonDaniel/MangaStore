@@ -1,0 +1,123 @@
+
+body{
+	background: lightblue;
+	position:;
+
+
+}
+
+
+.header{
+	background: #333;
+	color: white;
+	padding: 2rem 0;/*relleno 2 arriba y abajp y 0 a los costadps*/
+	position: fixed;/*la posicion del elemeno header va a ser fijo*/
+	left: 0;
+	top: 0;
+	right: 0;/*tambien se puede utilizar el width:100%*/
+	display: block;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;/*se le quita el subrayado*/
+
+}
+
+.imagen2{
+width: 320px;
+
+}
+
+.imagen	 {
+display: block;
+
+width: 280px;
+height: 385px;
+margin-top: 135px;
+margin-left: 25px;
+
+
+
+}
+
+
+.blog {
+margin-left: 250px;
+position: relative;
+
+
+
+
+}
+
+
+
+
+.texto{
+	text-align: absolute;
+	max-width: fit-content;
+	margin-left: 350px;
+	margin-bottom: 12px;
+	
+	position: relative;
+	bottom: 405px;
+    
+}
+
+.subtexto{
+	max-width: fit-content;
+	text-align: absolute;
+	width: 500px;
+	text-align: absolute;
+	
+	position: relative;
+	bottom: 400px;
+	left: 350px;
+	
+
+
+}
+.precio{
+	
+
+	text-align: justify;
+	width: 350px;
+
+	
+	position: relative;
+	bottom: 650px;
+	left: 350px;
+	
+
+
+}
+
+.btn {
+position: relative;
+text-decoration: none;
+left: 350px;
+bottom: 485px;
+display: inline;
+width: 100px;
+background: #1f53c5;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+
+
+
+
+
+}
+.footer{
+	margin-left: 0px;
+	background: #333;
+	padding: 1rem 0;
+	color: white;
+	text-align: left;
+	margin-top: 3rem;
+	font-size: 1,5rem;
+}
